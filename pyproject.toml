@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "smac-fastapi-auth"
-version = "0.1.0"
+version = "0.2.0"
 description = "Reusable code for authentication in Python backends using FastAPI"
 authors = ["Sven Maschek <dev@smaschek.com>"]
 readme = "README.md"

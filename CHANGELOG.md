@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## v0.2.0 (2024-07-06)
+
+### Feature
+
+* feat: use v4 for artifact downloads
+
+Use GH actions v4 for artifact downloads. ([`e375c66`](https://github.com/SMK1085/smac-fastapi-auth/commit/e375c66fece93a4a8706987f91ec3b2f05ff6231))
+
+### Unknown
+
+* Merge pull request #5 from SMK1085/develop
+
+feat: use v4 for artifact downloads ([`0dbbc1b`](https://github.com/SMK1085/smac-fastapi-auth/commit/0dbbc1b0a4954d8f01b37064f73377576756422c))
+
 ## v0.1.0 (2024-07-06)
 
 ### Chore
