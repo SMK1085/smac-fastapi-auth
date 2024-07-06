@@ -3,8 +3,6 @@ name: Semantic Release
 on:
   push:
     branches: [ "main" ] # Only run on pushes to the main branch
-  pull_request:
-    branches: [ "main" ]
 
 jobs:
     build:
@@ -72,10 +70,14 @@ jobs:
             name: python-package-distributions
             path: dist/
 
+        outputs:
+            released: ${{ steps.semanticrelease.outputs.released }}
+
     publish-to-pypi:
         name: >-
             Publish Python 🐍 distribution 📦 to PyPI
-        if: startsWith(github.ref, 'refs/tags/')  # only publish to PyPI on tag pushes
+        # only run if the build job step semanticrelease has released
+        if: ${{ needs.build.outputs.released == 'true' }}
         needs:
         - build
         runs-on: ubuntu-latest
