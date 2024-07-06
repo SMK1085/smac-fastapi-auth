@@ -23,3 +23,5 @@ jobs:
           uses: python-semantic-release/python-semantic-release@master
           with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
+            ssh_public_signing_key: ${{ secrets.SIGNING_KEY_PUB }}
+            ssh_private_signing_key: ${{ secrets.SIGNING_KEY_PRIV }}
