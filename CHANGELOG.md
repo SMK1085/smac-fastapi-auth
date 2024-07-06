@@ -1,5 +1,25 @@
 # CHANGELOG
 
+## v0.1.0 (2024-07-06)
+
+### Chore
+
+* chore: do not run release on pull request
+
+Remove the pull request trigger from the workflow. ([`783b1a2`](https://github.com/SMK1085/smac-fastapi-auth/commit/783b1a27a015c035e9571303cfec9df03b46552e))
+
+### Feature
+
+* feat: initial release version
+
+Configure workflow to release initial version to PyPi. ([`229620f`](https://github.com/SMK1085/smac-fastapi-auth/commit/229620f30c2d37df699b818a8c3d1aff01b0381e))
+
+### Unknown
+
+* Merge pull request #4 from SMK1085/develop
+
+feat: initial release version ([`d8a646e`](https://github.com/SMK1085/smac-fastapi-auth/commit/d8a646e9ef4ae91ac51e117b8d0fa12265d22274))
+
 ## v0.0.0 (2024-07-06)
 
 ### Chore
