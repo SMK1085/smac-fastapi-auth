@@ -22,6 +22,8 @@ jobs:
         - name: Python Semantic Release
           uses: python-semantic-release/python-semantic-release@master
           with:
+            git_committer_name: ${{ secrets.GIT_COMMITTER_NAME }}
+            git_committer_email: ${{ secrets.GIT_COMMITTER_EMAIL }}
             github_token: ${{ secrets.GITHUB_TOKEN }}
             ssh_public_signing_key: ${{ secrets.SIGNING_KEY_PUB }}
             ssh_private_signing_key: ${{ secrets.SIGNING_KEY_PRIV }}
