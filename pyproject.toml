@@ -23,6 +23,7 @@ pre-commit = "^3.7.1"
 pytest-asyncio = "^0.23.7"
 pytest-cov = "^5.0.0"
 gevent = "^24.2.1"
+python-semantic-release = "^9.8.4"
 
 [build-system]
 requires = ["poetry-core"]
@@ -74,3 +75,7 @@ exclude_also = [
     "class .*\\bProtocol\\):",
     "@(abc\\.)?abstractmethod",
 ]
+
+[tool.semantic_release]
+version_toml = ["pyproject.toml:tool.poetry.version"]
+version_variables = ["src/smac_fastapi_auth/setup.py:__version__"]
