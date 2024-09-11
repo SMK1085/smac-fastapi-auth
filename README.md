@@ -69,3 +69,9 @@ Note: The secondary user pool is entirely optional. If it is configured, keep in
     ```bash
     poetry run pytest --cov .
     ```
+
+## Releases
+
+Releases are done automatically using [python-semantic-release](https://python-semantic-release.readthedocs.io/en/latest/commit-parsing.html).
+
+Refer to the [CHANGELOG](CHANGELOG.md) for the release history.
