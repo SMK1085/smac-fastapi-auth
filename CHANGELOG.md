@@ -1,5 +1,71 @@
 # CHANGELOG
 
+## v0.2.1 (2024-09-11)
+
+### Chore
+
+* chore(deps): bump cryptography from 42.0.8 to 43.0.1
+
+Bumps [cryptography](https://github.com/pyca/cryptography) from 42.0.8 to 43.0.1.
+- [Changelog](https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst)
+- [Commits](https://github.com/pyca/cryptography/compare/42.0.8...43.0.1)
+
+---
+updated-dependencies:
+- dependency-name: cryptography
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`3ee1093`](https://github.com/SMK1085/smac-fastapi-auth/commit/3ee1093d866d499eddf3a3d2a09d746f6afe8c43))
+
+* chore(deps): bump aiohttp from 3.9.5 to 3.10.2
+
+Bumps [aiohttp](https://github.com/aio-libs/aiohttp) from 3.9.5 to 3.10.2.
+- [Release notes](https://github.com/aio-libs/aiohttp/releases)
+- [Changelog](https://github.com/aio-libs/aiohttp/blob/master/CHANGES.rst)
+- [Commits](https://github.com/aio-libs/aiohttp/compare/v3.9.5...v3.10.2)
+
+---
+updated-dependencies:
+- dependency-name: aiohttp
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`a5496fa`](https://github.com/SMK1085/smac-fastapi-auth/commit/a5496fac299c9d9eb095876669558972de3d6992))
+
+### Fix
+
+* fix: bump cryptography to 43.0.1
+
+fix: bump cryptography to 43.0.1 ([`d37dbe8`](https://github.com/SMK1085/smac-fastapi-auth/commit/d37dbe80a30c0c0e595f1c08a0c8277d0d8ba856))
+
+* fix: bump cryptography to 43.0.1
+
+Bump to address security vulnerability in cryptography.
+Update docs to clarify where the changelog is located. ([`a86ef24`](https://github.com/SMK1085/smac-fastapi-auth/commit/a86ef24c3d97982b7c50714a12b4a5a5f1027c93))
+
+### Unknown
+
+* Merge pull request #10 from SMK1085/develop
+
+fix: bump cryptography from 42.0.8 to 43.0.1 ([`bd039ee`](https://github.com/SMK1085/smac-fastapi-auth/commit/bd039eee2af51fc16aa4b7aca1370ad927df9f2e))
+
+* Merge pull request #9 from SMK1085/dependabot/pip/cryptography-43.0.1
+
+chore(deps): bump cryptography from 42.0.8 to 43.0.1 ([`00f1205`](https://github.com/SMK1085/smac-fastapi-auth/commit/00f12055014a3077292608163f59219420cfebc9))
+
+* Merge pull request #8 from SMK1085/main
+
+Merge main back to develop ([`d9057e5`](https://github.com/SMK1085/smac-fastapi-auth/commit/d9057e55c7da9745d17cd180654029d07868b21a))
+
+* Merge pull request #7 from SMK1085/dependabot/pip/aiohttp-3.10.2
+
+chore(deps): bump aiohttp from 3.9.5 to 3.10.2 ([`edcd97d`](https://github.com/SMK1085/smac-fastapi-auth/commit/edcd97dd5f1cf16686094e98fe79b1ea25ccdb6c))
+
+* Merge pull request #6 from SMK1085/main
+
+merge main back to develop ([`5002670`](https://github.com/SMK1085/smac-fastapi-auth/commit/5002670e36bf7af24a7dde6f0ac946f9c90d115f))
+
 ## v0.2.0 (2024-07-06)
 
 ### Feature
