@@ -10,7 +10,7 @@ license = "Apache-2.0"
 [tool.poetry.dependencies]
 python = "^3.12"
 pydantic-settings = "^2.3.4"
-fastapi-cognito = "^2.5.0"
+fastapi-cognito = "^2.7.0"
 loguru = "^0.7.2"
 aiohttp = "^3.9.5"
 cachebox = "^3.2.1"
