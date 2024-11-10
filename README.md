@@ -75,3 +75,5 @@ Note: The secondary user pool is entirely optional. If it is configured, keep in
 Releases are done automatically using [python-semantic-release](https://python-semantic-release.readthedocs.io/en/latest/commit-parsing.html).
 
 Refer to the [CHANGELOG](CHANGELOG.md) for the release history.
+
+Note that minor releases are done, if the underlying fastapi version changes. This is to ensure that the package is compatible with the latest fastapi version and to address any security vulnerabilities.
