@@ -42,3 +42,5 @@ class AuthSettings(BaseSettings):
             raise ValueError(
                 "The provider is set to COGNITO, but the settings for Cognito are not provided."
             )
+
+        return self
