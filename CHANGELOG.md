@@ -1,6 +1,16 @@
 # CHANGELOG
 
 
+## v0.4.1 (2024-12-29)
+
+### Bug Fixes
+
+- Broken publishing pipeline
+  ([`a201608`](https://github.com/SMK1085/smac-fastapi-auth/commit/a2016083a00a0d752ad82b571832a1beab38d93a))
+
+Update the GH actions to fix the broken publishing pipeline for PyPI signing.
+
+
 ## v0.4.0 (2024-12-29)
 
 ### Chores
